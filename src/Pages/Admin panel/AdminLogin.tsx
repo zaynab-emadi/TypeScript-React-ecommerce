@@ -18,7 +18,6 @@ import {
   LoginBox,
   LogoStyle,
 } from "../../Assets/Styles/AdminLoginStyle";
-import LoginIcon from "@mui/icons-material/Login";
 import BrandLogo from "../../Assets/Images/whiteLogo.svg";
 import Box from "@mui/material/Box";
 import {useNavigate} from "react-router-dom";
@@ -33,11 +32,19 @@ function AdminLogin() {
   ) => {
     event.preventDefault();
   };
+  // const handleSubmit = (event: any) => {
+  //   event.preventDefault();
+  //   const data = new FormData(event.currentTarget);
+  //   console.log({
+  //     userName: data.get('userName'),
+  //     password: data.get('password'),
+  //   });
+  // };
   return (
     <>
       <Grid
         container
-        direction="row"
+        direction="column"
         justifyContent="center"
         alignItems="center"
         sx={GridSx}
@@ -47,23 +54,23 @@ function AdminLogin() {
           <Box src={BrandLogo} component="img" sx={LogoStyle} />
           {/*header*/}
           <Typography variant="h4" sx={{ m: 1 }}>
-            <LoginIcon /> Management panel
+             Management panel
           </Typography>
           {/*userName*/}
-          <FormControl sx={{ m: 1 }} fullWidth>
+          <FormControl sx={{ m: 1 }} fullWidth id="userName">
             <TextField
-              id="outlined-basic"
+                required
               label="User Name"
               variant="outlined"
             />
           </FormControl>
           {/*password*/}
-          <FormControl sx={{ m: 1 }} variant="outlined" fullWidth>
-            <InputLabel htmlFor="outlined-adornment-password">
+          <FormControl sx={{ m: 1 }} variant="outlined" fullWidth required  >
+            <InputLabel htmlFor="password">
               Password
             </InputLabel>
             <OutlinedInput
-              id="outlined-adornment-password"
+              id="password"
               type={showPassword ? "text" : "password"}
               endAdornment={
                 <InputAdornment position="end">
@@ -80,7 +87,7 @@ function AdminLogin() {
               label="Password"
             />
           </FormControl>
-          {/*return button*/}
+          {/*return button and remember me*/}
           <Grid
             container
             direction="row"
@@ -95,7 +102,7 @@ function AdminLogin() {
             <Button onClick={() => navigate('/')}>Return</Button>
           </Grid>
           {/*login button*/}
-          <Button variant="contained" onClick={() => navigate('/Admin-dashboard')}>Submit</Button>
+          <Button variant="contained" type="submit" onClick={() => navigate('/Admin-dashboard')}>Submit</Button>
         </LoginBox>
       </Grid>
     </>

@@ -4,7 +4,7 @@ export const LoginBox = styled("div")(({ theme }) => ({
   borderRadius: theme.shape.borderRadius,
   boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(1, 1, 1, 1)",
   width: "25%",
-  height: "60%",
+  height: "65%",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
