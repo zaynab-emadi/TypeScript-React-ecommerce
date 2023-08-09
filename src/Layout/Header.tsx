@@ -21,7 +21,7 @@ import { Link } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 import { useNavigate } from "react-router-dom";
-import MobileLogo from "../Assets/Images/logo.svg";
+import MobileLogo from "../Assets/Images/branlogo.svg";
 import { Tooltip } from "@mui/material";
 
 export default function Header() {
