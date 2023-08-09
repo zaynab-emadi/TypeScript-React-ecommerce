@@ -1,18 +1,30 @@
 import React from "react";
 import {
   Button,
+  Checkbox,
   FormControl,
+  FormControlLabel,
   Grid,
   InputAdornment,
   InputLabel,
-  OutlinedInput, TextField, Typography,
+  OutlinedInput,
+  TextField,
+  Typography,
 } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import IconButton from "@mui/material/IconButton";
-import {LoginBox} from "../../Assets/Styles/AdminLoginStyle";
-import LoginIcon from '@mui/icons-material/Login';
+import {
+  GridSx,
+  LoginBox,
+  LogoStyle,
+} from "../../Assets/Styles/AdminLoginStyle";
+import LoginIcon from "@mui/icons-material/Login";
+import BrandLogo from "../../Assets/Images/whiteLogo.svg";
+import Box from "@mui/material/Box";
+import {useNavigate} from "react-router-dom";
 
 function AdminLogin() {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = React.useState(false);
   const handleClickShowPassword = () => setShowPassword((show) => !show);
 
@@ -28,19 +40,25 @@ function AdminLogin() {
         direction="row"
         justifyContent="center"
         alignItems="center"
-        sx = {{height : '100vh'}}
+        sx={GridSx}
       >
         <LoginBox>
-          {/*login icon*/}
-          <LoginIcon/>
+          {/*brand logo*/}
+          <Box src={BrandLogo} component="img" sx={LogoStyle} />
           {/*header*/}
-          <Typography variant='h4' >Management panel</Typography>
+          <Typography variant="h4" sx={{ m: 1 }}>
+            <LoginIcon /> Management panel
+          </Typography>
           {/*userName*/}
-          <FormControl sx={{ m: 1, width: "25ch" }}>
-          <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+          <FormControl sx={{ m: 1 }} fullWidth>
+            <TextField
+              id="outlined-basic"
+              label="User Name"
+              variant="outlined"
+            />
           </FormControl>
           {/*password*/}
-          <FormControl sx={{ m: 1, width: "25ch" }} variant="outlined">
+          <FormControl sx={{ m: 1 }} variant="outlined" fullWidth>
             <InputLabel htmlFor="outlined-adornment-password">
               Password
             </InputLabel>
@@ -62,10 +80,22 @@ function AdminLogin() {
               label="Password"
             />
           </FormControl>
-          {/*login button*/}
-          <Button variant="contained">Contained</Button>
           {/*return button*/}
-          <Button>Primary</Button>
+          <Grid
+            container
+            direction="row"
+            justifyContent="space-between"
+            alignItems="center"
+            sx={{ m: 2 }}
+          >
+            <FormControlLabel
+              control={<Checkbox value="remember" color="primary" />}
+              label="Remember me"
+            />
+            <Button onClick={() => navigate('/')}>Return</Button>
+          </Grid>
+          {/*login button*/}
+          <Button variant="contained" onClick={() => navigate('/Admin-dashboard')}>Submit</Button>
         </LoginBox>
       </Grid>
     </>
