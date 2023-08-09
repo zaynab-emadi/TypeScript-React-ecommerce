@@ -27,7 +27,7 @@ function RoutesMap() {
                     </Route>
                 </Route>
                 <Route path={"admin-login"} element={<AdminLogin />} />
-                <Route path={"dashboard"} element={<AdminDashboard />}>
+                <Route path={"Admin-dashboard"} element={<AdminDashboard />}>
                     <Route path={"orders"} element={<Orders />} />
                     <Route path={"products-list"} element={<ProductsList />} />
                     <Route path={"stock"} element={<Stock />} />
