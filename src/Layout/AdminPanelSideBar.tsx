@@ -13,7 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Logo from "../Assets/Images/blackHorizental.svg";
-import { Divider } from "@mui/material";
+import {Divider, Tooltip} from "@mui/material";
 import {
   AppBarStyle,
   LogoStyle,
@@ -25,6 +25,7 @@ import LocalMallIcon from "@mui/icons-material/LocalMall";
 import WarehouseIcon from "@mui/icons-material/Warehouse";
 import { lightBlue } from "@mui/material/colors";
 import { Outlet, useNavigate } from "react-router-dom";
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 const drawerWidth = 240;
 
@@ -97,6 +98,20 @@ export default function AdminPanelSideBar(props: Props) {
           <Typography variant="h6" noWrap component="div">
             Admin Dashboard
           </Typography>
+            <Box sx={{  mr: 1 , position : 'fixed' , right : 0 }}>
+                <Tooltip title={"Return"} arrow>
+                    <IconButton
+                        size="large"
+                        edge="end"
+                        aria-label="account of current user"
+                        aria-haspopup="true"
+                        color="inherit"
+                        onClick={() => navigate("/")}
+                    >
+                        <ExitToAppIcon />
+                    </IconButton>
+                </Tooltip>
+            </Box>
         </Toolbar>
       </AppBar>
       <Box
