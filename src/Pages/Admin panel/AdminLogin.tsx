@@ -5,7 +5,7 @@ import {
   FormControl,
   FormControlLabel,
   Grid,
-  InputAdornment, 
+  InputAdornment,
   InputLabel,
   OutlinedInput,
   TextField,
@@ -20,7 +20,7 @@ import {
 } from "../../Assets/Styles/AdminLoginStyle";
 import BrandLogo from "../../Assets/Images/whiteLogo.svg";
 import Box from "@mui/material/Box";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function AdminLogin() {
   const navigate = useNavigate();
@@ -54,21 +54,15 @@ function AdminLogin() {
           <Box src={BrandLogo} component="img" sx={LogoStyle} />
           {/*header*/}
           <Typography variant="h4" sx={{ m: 1 }}>
-             Management panel
+            Management panel
           </Typography>
           {/*userName*/}
           <FormControl sx={{ m: 1 }} fullWidth id="userName">
-            <TextField
-                required
-              label="User Name"
-              variant="outlined"
-            />
+            <TextField required label="User Name" variant="outlined" />
           </FormControl>
           {/*password*/}
-          <FormControl sx={{ m: 1 }} variant="outlined" fullWidth required  >
-            <InputLabel htmlFor="password">
-              Password
-            </InputLabel>
+          <FormControl sx={{ m: 1 }} variant="outlined" fullWidth required>
+            <InputLabel htmlFor="password">Password</InputLabel>
             <OutlinedInput
               id="password"
               type={showPassword ? "text" : "password"}
@@ -99,10 +93,16 @@ function AdminLogin() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-            <Button onClick={() => navigate('/')}>Return</Button>
+            <Button onClick={() => navigate("/")}>Return</Button>
           </Grid>
           {/*login button*/}
-          <Button variant="contained" type="submit" onClick={() => navigate('/Admin-dashboard')}>Submit</Button>
+          <Button
+            variant="contained"
+            type="submit"
+            onClick={() => navigate("/Admin-dashboard")}
+          >
+            Submit
+          </Button>
         </LoginBox>
       </Grid>
     </>
