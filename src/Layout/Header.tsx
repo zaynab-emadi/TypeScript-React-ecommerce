@@ -16,7 +16,7 @@ import {
     LogoStyle,
     mobileLogoStyle,
 } from "../Assets/Styles/HeaderStyles";
-import Logo from "../Assets/Images/BrandLogo.jpeg";
+import Logo from "../Assets/Images/blackHorizental.svg";
 import { Link } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";

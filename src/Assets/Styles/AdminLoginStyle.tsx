@@ -1,4 +1,5 @@
-import { alpha, styled } from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
+import {grey} from "@mui/material/colors";
 
 export const LoginBox = styled("div")(({ theme }) => ({
   borderRadius: theme.shape.borderRadius,
@@ -15,13 +16,12 @@ export const LoginBox = styled("div")(({ theme }) => ({
     height: "70%",
     boxShadow: "none",
   },
-  backgroundColor: alpha(theme.palette.common.white, 0.9),
+  backgroundColor: `${grey[300]}`,
 }));
 
 export const GridSx = {
   height: "100vh",
-  background:
-    "linear-gradient(333deg, rgba(2,0,36,1) 9%, rgba(26,64,147,1) 70%)",
+  background: 'linear-gradient(333deg, rgba(7,21,34,1) 18%, rgba(37,78,124,1) 53%, rgba(110,150,196,1) 81%)'
 };
 
 export const LogoStyle = {
