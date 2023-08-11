@@ -14,13 +14,17 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Logo from "../Assets/Images/blackHorizental.svg";
 import { Divider } from "@mui/material";
-import { LogoStyle, SideBar } from "../Assets/Styles/AdminPanelSideBar";
+import {
+  AppBarStyle,
+  LogoStyle,
+  SideBar,
+} from "../Assets/Styles/AdminPanelSideBar";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import SpaceDashboardIcon from "@mui/icons-material/SpaceDashboard";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import WarehouseIcon from "@mui/icons-material/Warehouse";
-import {grey, lightBlue} from "@mui/material/colors";
-import {useNavigate} from "react-router-dom";
+import { lightBlue } from "@mui/material/colors";
+import { Outlet, useNavigate } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -33,8 +37,8 @@ interface Props {
 }
 
 export default function AdminPanelSideBar(props: Props) {
-    const navigate = useNavigate();
-    const { window } = props;
+  const navigate = useNavigate();
+  const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -46,7 +50,12 @@ export default function AdminPanelSideBar(props: Props) {
     <LocalMallIcon style={{ color: lightBlue[400] }} />,
     <WarehouseIcon style={{ color: lightBlue[400] }} />,
   ];
-  const drawerLinks : string[] = ['/Admin-dashboard' , 'orders' , 'products-list' , 'stock'];
+  const drawerLinks: string[] = [
+    "/Admin-dashboard",
+    "orders",
+    "products-list",
+    "stock",
+  ];
   const drawer = (
     <div style={SideBar}>
       <Toolbar>
@@ -56,7 +65,7 @@ export default function AdminPanelSideBar(props: Props) {
       <List>
         {["Dashboard", "Orders", "Products list", "Stock"].map(
           (text, index) => (
-            <ListItem key={text} disablePadding sx={{mt : 3}}>
+            <ListItem key={text} disablePadding sx={{ mt: 3 }}>
               <ListItemButton onClick={() => navigate(drawerLinks[index])}>
                 <ListItemIcon>{drawerIcons[index]}</ListItemIcon>
                 <ListItemText primary={text} />
@@ -73,17 +82,8 @@ export default function AdminPanelSideBar(props: Props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-     <CssBaseline/>
-      <AppBar
-        position="static"
-        sx={{
-          width: { sm: `calc(101% - ${drawerWidth}px)` },
-           ml: { sm: `${drawerWidth}px` },
-            backgroundColor : `${grey[200]}`,
-            color : `${grey[800]}`
-
-        }}
-      >
+      <CssBaseline />
+      <AppBar position="fixed" sx={AppBarStyle}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -136,6 +136,17 @@ export default function AdminPanelSideBar(props: Props) {
         >
           {drawer}
         </Drawer>
+      </Box>
+      <Box
+        component="main"
+        sx={{
+          flexGrow: 1,
+          p: 3,
+          width: { sm: `calc(100% - ${drawerWidth}px)` },
+        }}
+      >
+        <Toolbar />
+        <Outlet />
       </Box>
     </Box>
   );

@@ -1,13 +1,11 @@
-import React from 'react';
+import React from "react";
 import AdminPanelSideBar from "../../Layout/AdminPanelSideBar";
-import {Outlet} from "react-router-dom";
 function AdminDashboard() {
-    return (
-        <>
-        <AdminPanelSideBar/>
-        <Outlet />
-        </>
-    );
+  return (
+    <>
+      <AdminPanelSideBar />
+    </>
+  );
 }
 
 export default AdminDashboard;
