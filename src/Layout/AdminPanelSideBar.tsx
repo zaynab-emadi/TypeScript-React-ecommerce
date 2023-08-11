@@ -18,14 +18,15 @@ import {
   AppBarStyle,
   LogoStyle,
   SideBar,
-} from "../Assets/Styles/AdminPanelSideBar";
+} from "../Assets/Styles/AdminPanelSideBarStyle";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import SpaceDashboardIcon from "@mui/icons-material/SpaceDashboard";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import WarehouseIcon from "@mui/icons-material/Warehouse";
 import { lightBlue } from "@mui/material/colors";
-import { Outlet, useNavigate } from "react-router-dom";
+import {Outlet, useLocation, useNavigate} from "react-router-dom";
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import Test from "../Components/test";
 
 const drawerWidth = 240;
 
@@ -39,6 +40,8 @@ interface Props {
 
 export default function AdminPanelSideBar(props: Props) {
   const navigate = useNavigate();
+  const location = useLocation();
+
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -161,6 +164,7 @@ export default function AdminPanelSideBar(props: Props) {
         }}
       >
         <Toolbar />
+          {location.pathname === '/Admin-dashboard' ? <Test/> : <Outlet />}
         <Outlet />
       </Box>
     </Box>
