@@ -1,0 +1,261 @@
+{
+  "products": [
+    {
+      "id" : 1,
+      "name" : "",
+      "brand" : "",
+      "rate" : 4 ,
+      "categories" : 1 ,
+      "subCategories" : 1,
+      "image" : [
+
+      ],
+      "quantity" : 10,
+      "price" : 15,
+      "details" : "",
+      "colors" : [
+
+      ]
+    },
+    {
+      "id": 2,
+      "name": "سوال چهار گزینه ای حسابداری صنعتی",
+      "author": "غلامرضا کرمی",
+      "publisher": "نگاه دانش",
+      "yearOfPublish": 1399,
+      "categories": 1,
+      "subgroups": 1,
+      "subcategories": 1,
+      "image": [
+        "2f187b0ffd9786cd4d9c9ca76a305577"
+      ],
+      "quantity": 10,
+      "price": 140000,
+      "pagesNumber": 728,
+      "description": ""
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Laptops"
+    },
+    {
+      "id": 2,
+      "name": "Desktops"
+    },
+    {
+      "id": 3,
+      "name": "Phones"
+    },
+    {
+      "id": 4,
+      "name": "Video Games Consoles"
+    },
+    {
+      "id": 5,
+      "name": "Cameras"
+    }
+  ],
+  "subCategories": [
+    {
+      "id": 1,
+      "name": "Laptops & Ultra Books",
+      "category": 1
+    },
+    {
+      "id": 2,
+      "name": "Laptop Accessories",
+      "category": 1
+    },
+    {
+      "id": 3,
+      "name": "Computer Components",
+      "category": 2
+    },
+    {
+      "id": 4,
+      "name": "Data Storage",
+      "category": 2
+    },
+    {
+      "id": 5,
+      "name": "Monitors",
+      "category": 3
+    },
+    {
+      "id": 6,
+      "name": "Computer Accessories & Peripherals",
+      "category": 3
+    },
+    {
+      "id": 7,
+      "name": "Apple",
+      "category": 3
+    },
+    {
+      "id": 7,
+      "name": "",
+      "category": 3
+    },
+    {
+      "id": 7,
+      "name": "Apple",
+      "category": 3
+    },
+    {
+      "id": 8,
+      "name": "Home Consoles",
+      "category": 4
+    },
+    {
+      "id": 9,
+      "name": "Portable Consoles",
+      "category": 4
+    },
+    {
+      "id": 10,
+      "name": "Consoles Accessories",
+      "category": 4
+    },
+    {
+      "id": 11,
+      "name": "Computer Components",
+      "category": 5
+    },
+    {
+      "id": 12,
+      "name": "Data Storage",
+      "category": 5
+    },
+    {
+      "id": 13,
+      "name": "Monitors",
+      "category": 5
+    },
+    {
+      "id": 14,
+      "name": "Computer Accessories & Peripherals",
+      "category": 5
+    }
+  ],
+  "orders": [
+    {
+      "username": "پدرام",
+      "lastname": "صادقی",
+      "address": "تهران میدان آزادی ",
+      "phone": "09032855606",
+      "expectAt": 1648771200000,
+      "products": [
+        18,
+        20
+      ],
+      "prices": 510000,
+      "delivered": "true",
+      "createdAt": 1646158398160,
+      "id": 1
+    },
+    {
+      "username": "علی",
+      "lastname": "عمادی",
+      "address": "تهران خیابان شریعتی ",
+      "phone": "09124364722",
+      "expectAt": 1649771200000,
+      "products": [
+        12,
+        5
+      ],
+      "prices": 105000,
+      "delivered": "true",
+      "createdAt": 1647158398160,
+      "id": 2
+    },
+    {
+      "username": "رضا",
+      "lastname": "ظریفی",
+      "address": "تهران میدان شهدا ",
+      "phone": "09122350398",
+      "expectAt": 1649771200000,
+      "products": [
+        1,
+        10
+      ],
+      "prices": 10275000,
+      "delivered": "true",
+      "createdAt": 1646158398160,
+      "id": 3
+    },
+    {
+      "username": "شمیم",
+      "lastname": "احتشامی",
+      "address": "تهران فرمانیه ",
+      "phone": "09122591068",
+      "expectAt": 1648771200000,
+      "products": [
+        12,
+        25,
+        30
+      ],
+      "prices": 30275000,
+      "delivered": "false",
+      "createdAt": 1646158398160,
+      "id": 4
+    },
+    {
+      "username": "زهرا",
+      "lastname": "نجاتی",
+      "address": "تهران چهارراه قنات ",
+      "phone": "09218078486",
+      "expectAt": 1648771200000,
+      "products": [
+        5
+      ],
+      "prices": 75000,
+      "delivered": "false",
+      "createdAt": 1646158398160,
+      "id": 5
+    },
+    {
+      "username": "علی",
+      "lastname": "صادقی",
+      "address": "تهران میدان انقلاب ",
+      "phone": "09032855606",
+      "expectAt": 1648771200000,
+      "products": [
+        5,
+        2
+      ],
+      "prices": 10235000,
+      "delivered": "false",
+      "createdAt": 1646158398160,
+      "id": 6
+    }
+  ],
+  "whoami": {
+    "name": "Jamshid Mashayekhi",
+    "username": "admin",
+    "password": "admin",
+    "role": "admin"
+  },
+  "users": [
+    {
+      "name": "Alireza Gharghabi",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    }
+  ],
+  "protection": {
+    "products.get": false,
+    "orders.post": false,
+    "products.post": false,
+    "orders.get": false,
+    "orders.patch": false,
+    "upload.post": false,
+    "upload": true,
+    "orders": "admin",
+    "products": "admin",
+    "users": "admin",
+    "protection": "admin"
+  }
+}
