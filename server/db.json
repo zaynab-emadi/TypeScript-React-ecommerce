@@ -156,6 +156,210 @@
       "categories": 7
     }
   ],
+  "subCategories": [
+    {
+      "id": 1,
+      "name": "CPU Manufacturer",
+      "options": ["AMD", "Apple", "ARM", "Intel", "NVIDIA", "VIA"],
+      "categories": 1
+    },
+    {
+      "id": 2,
+      "name": "Processor Count",
+      "options": ["1", "2", "4", "6", "8", "10", "14"],
+      "categories": 1
+    },
+    {
+      "id": 3,
+      "name": "Operating System",
+      "options": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 SE",
+        "Windows 10 Home",
+        "Windows 10 Pro",
+        "Mac OS",
+        "Chrome OS",
+        "Linux",
+        "DOS"
+      ],
+      "categories": 1
+    },
+    {
+      "id": 4,
+      "name": "Display Size",
+      "options": [
+        "17 Inches & Above",
+        "16 to 16.9 Inches",
+        "15 to 15.9 Inches",
+        "14 to 14.9 Inches",
+        "13 to 13.9 Inches",
+        "12 Inches & Under"
+      ],
+      "categories": 1
+    },
+    {
+      "id": 5,
+      "name": "Processor Type",
+      "options": [
+        "Intel Core i7",
+        "Intel core i5",
+        "AMD Ryzen 7",
+        "Intel Core i3"
+      ],
+      "categories": 1
+    },
+    {
+      "id": 6,
+      "name": "CPU Manufacturer",
+      "options": ["AMD", "Apple", "ARM", "Intel", "NVIDIA", "VIA"],
+      "categories": 2
+    },
+    {
+      "id": 7,
+      "name": "Processor Count",
+      "options": ["1", "2", "4", "6", "8", "10", "14"],
+      "categories": 2
+    },
+    {
+      "id": 8,
+      "name": "Operating System",
+      "options": [
+        "Windows 11 Home",
+        "Windows 11 Pro",
+        "Windows 11 SE",
+        "Windows 10 Home",
+        "Windows 10 Pro",
+        "Mac OS",
+        "Chrome OS",
+        "Linux",
+        "DOS"
+      ],
+      "categories": 2
+    },
+    {
+      "id": 9,
+      "name": "Graphics Card Interface",
+      "options": ["AGP", "Integrated", "PCI Express"],
+      "categories": 2
+    },
+    {
+      "id": 10,
+      "name": "Graphics Processor Manufacturer",
+      "options": ["AMD", "Intel", "NVIDIA"],
+      "categories": 2
+    },
+    {
+      "id": 11,
+      "name": "Processor Type",
+      "options": [
+        "Intel Core i7",
+        "Intel core i5",
+        "Intel Core i9",
+        "Intel Core i3"
+      ],
+      "categories": 2
+    },
+    {
+      "id": 12,
+      "name": "RAM Size",
+      "options": ["2 GB", "4 GB", "8 GB", "16 GB"],
+      "categories": 2
+    },
+    {
+      "id": 13,
+      "name": "Brand",
+      "options": ["Arzopa", "Sceptre", "PHILIPS", "HP", "acer"],
+      "categories": 3
+    },
+    {
+      "id": 14,
+      "name": "Screen Size",
+      "options": [
+        "Up to 13.9 in",
+        "14.0 to 17.9 in",
+        "18.0 to 21.9 in",
+        "22.0 to 25.9 in"
+      ],
+      "categories": 3
+    },
+    {
+      "id": 15,
+      "name": "Monitor Display Feature",
+      "options": [
+        "Anti Glare Screen",
+        "Blue Light Filter",
+        "Built-In Speakers",
+        "Flicker-Free"
+      ],
+      "categories": 3
+    },
+    {
+      "id": 16,
+      "name": "",
+      "options": [],
+      "categories": 1
+    },
+    {
+      "id": 17,
+      "name": "Operating System",
+      "options": [
+        "Android",
+        "BlackBerry Tablet OS",
+        "Chrome OS",
+        "Fire OS",
+        "ipadOS"
+      ],
+      "categories": 4
+    },
+    {
+      "id": 18,
+      "name": "Operating System Version",
+      "options": ["Android 10", "Android 11", "Android 12", "Windows 10 Home"],
+      "categories": 4
+    },
+    {
+      "id": 19,
+      "name": "Display Size",
+      "options": ["7 to 7.9 Inches", "8 to 8.9 Inches", "9 to 9.9 Inches"],
+      "categories": 4
+    },
+    {
+      "id": 20,
+      "name": "Memory Storage Capacity",
+      "options": [
+        "Up to 6.9 GB",
+        "7 to 11.9 GB",
+        "12 to 16.9 GB",
+        "17 GB & above"
+      ],
+      "categories": 4
+    },
+    {
+      "id": 21,
+      "name": "Featured Brands",
+      "options": ["Seagate", "Gotega", "ARCTIC", "Toshiba", "AMD", "SAMSUNG"],
+      "categories": 6
+    },
+    {
+      "id": 22,
+      "name": "Platform Support",
+      "options": ["PC", "Mac"],
+      "categories": 7
+    },
+    {
+      "id": 23,
+      "name": "Featured Brands",
+      "options": [
+        "SAMSUNG",
+        "Amazon basic",
+        "Seagate",
+        "Toshiba",
+        "Western Digital"
+      ],
+      "categories": 1
+    }
+  ],
   "orders": [
     {
       "username": "پدرام",
