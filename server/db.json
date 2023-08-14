@@ -1,4 +1,566 @@
 {
+  "products": [
+    {
+      "id": 1,
+      "name ": "Acer Aspire 3 Spin 14 Convertible Laptop | 14\" 1920 x 1200 IPS Touch Display | Intel Core i3-N305 | Intel UHD Graphics | 8GB LPDDR5 | 128GB SSD | Wi-Fi 6 | Windows 11 Home in S mode | A3SP14-31PT-37NV",
+      "image": [
+        "02098e2ecb837e3c02033ef8c7134ae2",
+        "d596976fe7bc26a17bd0a51bf7689c79",
+        "5f44ced3f8863587ee8c4f3c60baf896"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 20,
+      "price": 426,
+      "colors": ["silver"],
+      "details": {
+        "brand": "Acer",
+        "ModelName": "A3SP14-31PT-37NV",
+        "ScreenSize": "14 Inches",
+        "HardDiskSize": "128 GB",
+        "CPUModel": "Intel Core i3",
+        "RamMemoryInstalledSize": "8 GB",
+        "OperatingSystem": "Windows 11 S",
+        "SpecialFeature": "Pen",
+        "About": "Convertible Ease: The slim and convertible Aspire 3 Spin 14 is made for all around productivity. With its ultra-responsive 14\" IPS touchscreen and AES Pen support, it easily flips, stands, folds, and spins to the way you work.\nDesigned for Real-World Performance: the Intel Core i3 processors offer reliable performance, multitasking capabilities, and fast connectivity to work and learn.\nInternal Specifications; 8GB LPDDR5 RAM and 128GB NVMe SSD\nEasy-to-Use Touchscreen: Take notes, sketch, or share your work with ease on the ultra-responsive 14” WUXGA (1920 x 1200) IPS touchscreen—with WACOM AES Pen Support, Acer BlueLightShield, and a 16:10 aspect ratio to boot. (Pen Sold Separately)\nThin, Light, and Versatile: With its versatile 360° hinge design, easily transition between laptop or tablet mode—or anything in between! And at 18.9 mm thin and 3.4 lbs. light, this 2-in-1 convertible laptop is made to keep up with you!\nThe Connectivity: Connect or charge your newest devices on the full-USB Type-C port. In addition, Wi-Fi 6 and HDMI 2.1 provide increased productivity and functionality for whatever life throws at you.\nThe Smarts: The 720p HD webcam with Blue Glass Lens utilizes Acer’s Temporal Noise Reduction (TNR) technology and Acer PurifiedVoice with AI noise cancellation for high-quality video feeds and crisp audio output when streaming or making conference calls.\nPorts: 1 - USB Type-C Port USB 3.2 Gen 2 (up to 10 Gbps) DisplayPort over USB Type-C & USB Charging, 2 - USB 3.2 Gen 1 Ports, 1 - HDMI 2.1 Port with HDCP Support and 1 - Combo headphone / microphone-in jack\nWindows 11 Home in S mode - Streamlined for security & superior performance and works exclusively with apps from the Microsoft Store.\n"
+      }
+    },
+    {
+      "id": 2,
+      "name ": "Acer Chromebook Spin 314 Convertible Laptop | Intel Pentium Silver N6000 | 14\" HD Corning Gorilla Glass Touch Display | 4GB LPDDR4X | 128GB eMMC | Intel Wi-Fi 6 AX201 | Chrome OS | CP314-1H-P9G7",
+      "image": [
+        "49827f3ac29e9e296620ab7314ce6322",
+        "b0babc31e780e274c2bfb26169905f26",
+        "c44036eb4972ec12065a925df9b0eadc",
+        "1d88bf105785aacf6554efab8f8790e6"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 40,
+      "price": 379.99,
+      "colors": ["silver"],
+      "details": {
+        "brand": "Acer",
+        "ModelName": "CP314-1H-P9G7",
+        "ScreenSize": "14 Inches",
+        "HardDiskSize": "128 GB",
+        "CPUModel": "Pentium",
+        "RamMemoryInstalledSize": "4 GB",
+        "OperatingSystem": "Chrome OS",
+        "SpecialFeature": "Anti Glare Coating",
+        "About": "Chromebook runs on Chrome OS - An operating system by Google that is built for the way we live today. It updates automatically, boots up in seconds and continues to stay fast over time. (Internet connection is required).Control method:touch\nAll the Google apps you know and love come standard on every Chromebook, which means you can edit, download, and convert Microsoft Office files in Google Docs, Sheets and Slides.\nGet access to more than 2 million Android apps from Google Play to learn and do more.\nChromebooks come with built-in storage for offline access to your most important files and an additional 100GB of Google Drive space to ensure that all of your files are backed up automatically.\nIntel Pentium Silver N6000 Processor (Up to 3.3GHz) | Intel UHD Graphics\n14.0\" HD (1366 x 768) LED-backlit TFT LCD Corning Gorilla Glass Display with Multi-Touch and USI Stylus Compatible | 4GB LPDDR4X On-Board Memory | 128GB eMMC\nIntel Wireless Wi-Fi 6 AX201 802.11ax Dual-Band 2.4GHz and 5GHz featuring 2x2 MU-MIMO technology | Bluetooth 5.1 | DTS Audio with Two Built-in Face-Up Stereo Speakers\n1 - USB Type C port supporting USB 3.2 Gen 1 (up to 5 Gbps), DisplayPort over USB-C, USB Charging, DC-in | 2 - USB 3.2 Gen 1 ports | 1 - HDMI Port\nOceanGlass Touchpad | Up to 10 hours of battery life | Chrome OS"
+      }
+    },
+    {
+      "id": 3,
+      "name ": "Lenovo 2022 IdeaPad Flex 3 11.6\" HD 2-in-1 Touchscreen Chromebook (8-Core MediaTek MT8183, 4GB RAM, 64GB eMMC, Stylus, Webcam) Flip Convertible Home Education Laptop, IST Computers Pen, Chrome OS",
+      "image": [
+        "5ca0843cfe9027737f959c67e8d509f4",
+        "5d897f108919a8307868a7df51aea94d",
+        "7d3be261f0aa740ebf34063ed0f49796",
+        "38b3c8dcf7221de6337371d72dec9321"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 30,
+      "price": 499.99,
+      "colors": ["Abyss Blue"],
+      "details": {
+        "brand": "Lenovo",
+        "ModelName": "Chromebook Flex 3",
+        "ScreenSize": "11.6 Inches",
+        "HardDiskSize": "128 GB",
+        "CPUModel": "Pentium",
+        "RamMemoryInstalledSize": "4 GB",
+        "OperatingSystem": "Chrome OS",
+        "SpecialFeature": "Anti Glare Coating"
+      }
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    },
+    {
+      "id": 1,
+      "name ": "",
+      "image": [],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 1,
+      "price": 1,
+      "colors": [],
+      "details": {}
+    }
+  ],
   "categories": [
     {
       "id": 1,
@@ -29,7 +591,7 @@
       "name": "Storage & Hard Drives"
     }
   ],
-  "subGroups": [
+  "subCategories": [
     {
       "id": 1,
       "name": "2 in 1 Laptops",
@@ -156,7 +718,7 @@
       "categories": 7
     }
   ],
-  "subCategories": [
+  "filters": [
     {
       "id": 1,
       "name": "CPU Manufacturer",
