@@ -77,15 +77,189 @@
       }
     },
     {
-      "id": 1,
-      "name ": "",
-      "image": [],
+      "id": 4,
+      "name ": "Microsoft Surface Laptop Studio - 14.4\" Touchscreen - Intel® Core™ i7 - 32GB Memory - 1TB SSD - Platinum",
+      "image": [
+        "0d884ca560d37acbbbbbe797424539af",
+        "43d75a572f820c921d47445047a34702",
+        "512226b1e838f6c7ab766def8e75107e",
+        "83073afb64dfb7e0169566c9390f8c28"
+      ],
       "categories": 1,
       "subCategories": 1,
-      "quantity": 1,
-      "price": 1,
-      "colors": [],
-      "details": {}
+      "quantity": 8,
+      "price": 2699.99,
+      "colors": ["Platinum"],
+      "details": {
+        "brand": "Microsoft",
+        "ModelName": "Microsoft Surface Laptop Studio",
+        "ScreenSize": "14.4 Inches",
+        "HardDiskSize": "1 TB",
+        "CPUModel": "Intel Core i7-11700",
+        "RamMemoryInstalledSize": "32 GB",
+        "OperatingSystem": "Windows 11 Home",
+        "GraphicsCoprocessor": "NVIDIA GeForce RTX 3050 Ti",
+        "About": "The most powerful Surface Laptop. Quad-core powered 11th Gen Intel Core H Series processors handle your most complex workloads.Control method:touch\nDesign, animate, and render at top speed. Step up to the award-winning Ampere — NVIDIA's 2nd gen RTX architecture, enabling ray-traced graphics and cutting-edge AI features from NVIDIA GeForce RTX 3050 Ti.\nBoundary-pushing design with sleek 14.4“ (5) touchscreen makes seamless transitions from laptop to entertainment-ready stage to portable creative canvas.\nPair with Surface Slim Pen 2 for the best digital pen experience yet, featuring the feeling of pen on paper(7). Magnetically attach, store, and charge under the front of the keyboard.\nEnjoy uniform, true-to-life color and contrast on the beautiful 14.4”(5) PixelSense Flow touch display. Experience smoother scrolling with a refresh rate up to 120Hz.\nYou’re going to need Word, Excel, and PowerPoint. Don’t forget to add Microsoft 365"
+      }
+    },
+    {
+      "id": 5,
+      "name ": "HP 2023 Convertible 2-in-1 Chromebook, 14\" FHD IPS Touchscreen, Intel 11th i3 Processor Up to 4.0GHz, 8GB Ram, 128GB SSD, Fingerprint Reader, Super-Fast 6th Gen WiFi, Chrome OS, Dale Gray",
+      "image": [
+        "a5503bac9d81b76980709e49b28c4f49",
+        "f67a112749eb9a4ee0d61f71d37d3c28",
+        "ef6832f3a9988c44c5038e4d458420a7",
+        "33a6c03de734124ff6a1c136972cca71"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 50,
+      "price": 259.99,
+      "colors": ["Dale Gray"],
+      "details": {
+        "brand": "HP",
+        "ModelName": "HP 14\" Chromebook",
+        "ScreenSize": "14 Inches",
+        "HardDiskSize": "128 GB",
+        "CPUModel": "Core i3",
+        "RamMemoryInstalledSize": "8 GB",
+        "OperatingSystem": "Chrome OS",
+        "GraphicsCoprocessor": "Intel"
+      }
+    },
+    {
+      "id": 6,
+      "name ": "Apple Late 2021 MacBook Pro M1 Pro chip 10-core CPU (14 inch, 16GB RAM, 1TB SSD) (QWERTY English) Space Gray",
+      "image": [
+        "29f00ca12bade50d7a9c3667c6f8a4b3",
+        "69185e7f70e0a4fec297e47e586c2bd6",
+        "4ec52a1e921c4d0d6e945f15a438b67b",
+        "6f0a2fc6ac8ac0e154df0f38da1e6d51"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 12,
+      "price": 1699.95,
+      "colors": ["Space Gray", "Silver"],
+      "details": {
+        "brand": "Apple",
+        "ModelName": "MacBook Pro",
+        "ScreenSize": "14 Inches",
+        "HardDiskSize": "1 TB",
+        "CPUModel": "Apple M1",
+        "RamMemoryInstalledSize": "16 GB",
+        "OperatingSystem": "Mac OS X 11 Ventura",
+        "GraphicsCoprocessor": "M1 Pro 16‑core GPU",
+        "About": "Apple M1 Pro or M1 Max chip for a massive leap in CPU, GPU, and machine learning performance\nUp to 10-core CPU delivers up to 3.7x faster performance to fly through pro workflows quicker than ever\nUp to 32-core GPU with up to 13x faster performance for graphics-intensive apps and games\n16-core Neural Engine for up to 11x faster machine learning performance, Longer battery life, up to 17 hours\nUp to 64GB of unified memory so everything you do is fast and fluid"
+      }
+    },
+    {
+      "id": 7,
+      "name ": "Lenovo ThinkPad X1 Titanium Yoga 13.5\" 2-in-1 Laptop (Intel Core i7-1160G7, 16GB RAM, 512GB SSD, QHD Touchscreen) Precision Pen, Lightweight 2.54lbs, 3-Year Warranty, Business PC, Win 11 Pro - 2023",
+      "image": [
+        "ae8314efcef9d2000faa126a78eadeea",
+        "21c560c2b9903012210e970d9b49d85a",
+        "2e7b14c91decf2071606a66378a9d39f",
+        "0559f1f07b7e51aefed18b5e0f57c4cd"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 10,
+      "price": 1049.98,
+      "colors": ["Titanium"],
+      "details": {
+        "brand": "Lenovo",
+        "ModelName": "ThinkPad X1 Titanium Yoga",
+        "ScreenSize": "13.5 Inches",
+        "HardDiskSize": "512 GB",
+        "CPUModel": "Core i7",
+        "RamMemoryInstalledSize": "16 GB",
+        "OperatingSystem": "Windows 11 Pro",
+        "SpecialFeature": "Fingerprint Reader, Backlit Keyboard, Support Stylus",
+        "About": "Lightweight (Only 2.54 lbs) with a Carbon Fiber top and Magnesium-aluminium bottom; MIL-STD-810H Military Standard; Up to 11.7 Hours Long-Last Battery Life; the X360 and Flip feature in 4 modes: Laptop mode, Tent mode , Stand mode, or Tablet mode; Lenovo Precision Pen Included\nIntel Evo platform, Built for Business: Intel 11th Quad-Core i7-1160G7 Processor (2.10 GHz, up to 4.40 GHz with Turbo Boost, 4 Cores, 8 Threads, 12 MB Cache); 16 GB LPDDR4X-4266MHz (Soldered) Memory, 512GB M.2 NVMe PCIe SSD.\n13.5\" (13-inch Plus) QHD (2256 x 1504) IPS Anti-Glare, Anti-Smudge, Touchscreen with Dolby Vision 450 Nits; HD IR Webcam with Privacy Shutter for Windows Hello and Human Presence Detection; Integrated Intel Iris Xe Graphics - Expandable to 2 monitors via Thunderbolt 4, Max resolution of the External Monitors: 4K and 5K (5120x3200) @60Hz\n2x Thunderbolt 4 / USB4 40Gbps (support data transfer, Power Delivery 3.0 and DisplayPort 1.4a), Headphone / microphone combo jack (3.5mm); Backlit Keyboard, Fingerprint Reader; Intel Wi-Fi 6 AX201, 11ax 2x2, Bluetooth 5.1\nEverything is Original from Manufacturer. Three-year Premier Warranty Support from the manufacturer. Windows 11 Professional 64-bit, Ideal for School Education, Designers, Professionals, Small Business, Programmers, Streaming, Online Class, Remote Learning, Zoom Meeting, Video Conference, etc."
+      }
+    },
+    {
+      "id": 8,
+      "name ": "HP Envy X360 15 2-in-1 Touchscreen (Ryzen 5 5625U, 32GB RAM, 1TB SSD, Active Stylus, Laptop Bag) AMD 6-Core(Beat i7-1165G7) 15.6\" FHD Convertible Laptop, Backlit, Pen, Alexa, Windows 11 Home - 2022",
+      "image": [
+        "9bc3008e698f5395d6d0b0b869ee45a6",
+        "c8024c98c7b4b76081547248f3537b04",
+        "ac8008c711f876990a0f8518739bd253",
+        "631973e68c101f8c190f8de2c948a05e",
+        "5f5d093e53a8f58acc3ad96d8c002054"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 31,
+      "price": 791.9,
+      "colors": ["Nightfall black"],
+      "details": {
+        "brand": "HP",
+        "ModelName": "HP ENVY X360",
+        "ScreenSize": "15.6 Inches",
+        "HardDiskSize": "1 TB",
+        "CPUModel": "AMD R Series",
+        "RamMemoryInstalledSize": "32 GB",
+        "OperatingSystem": "Windows 11 Home",
+        "SpecialFeature": "Backlit Keyboard",
+        "About": "The 360 degree hinge allows 'Laptop' mode for everyday computing, 'Tent' mode for sharing things, 'Stand' mode for binge-watching, or 'Tablet' mode for more intuitive interaction\n32GB 3200MHz DDR4 Memory; 1TB NVMe PCIe M.2 SSD; AMD Ryzen 5000 series R5 5625U (Hexa-Cores 12 threads, base clock speed 2.3GHz, max turbo to 4.3GHz, 16MB L3 Cache)\n15.6\" FHD (1920 x 1080) IPS, Edge-to-edge glass, Multitouch-enabled, 250 nits, 45% NTSC display; Integrated AMD Radeon Graphics - Expandable to one monitor via HDMI. Max resolution of the External Monitors: 4K (3840*2160) @30Hz\n2 x USB-A 3.1, 2 x USB-C 3.1 (Support data transfer, Power Delivery and DisplayPort 1.4), 1 x HDMI 2.1, 1 x Card reader, 1 x Headphone / mic combo; Wi-Fi 6E (2x2) + Bluetooth 5.1\nThis laptop is upgraded from a brand-new base model. The manufacturer box is opened and resealed to install the parts to achieve the specifications as advertised. One-year warranty from Manufacturer. Three-year warranty for upgraded RAM / SSD from Issaquah Highlands Tech. Windows 11 Home 64-bit - ideal for family entertainment, daily productivity, casual gaming, streaming, online class, remote learning, Zoom meeting, video conference, etc."
+      }
+    },
+    {
+      "id": 9,
+      "name ": "Lenovo 2023 Yoga 7i 16\" Touchscreen 2.5K 2560x1600 400nits 2-in-1 Laptop, 12th Evo Platform Intel 12-Core i5-1240P Upto 4.4GHz, 8GB LPDDR5 RAM, 1TB SSD, WiFi 6, Backlit KB, W/Stylus Pen, Win11 Home",
+      "image": [
+        "fb5796b93ddf42d22363a50748788621",
+        "51a9ce62841336d400142c35a2e855d8",
+        "065f0300e6133ac286233c1462f1a948",
+        "7f28b2db2d4d6de112dc37d7c0b13b9c",
+        "5dbec442c466af305c5bacdea025fb3d"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 45,
+      "price": 788.99,
+      "colors": ["Storm Grey"],
+      "details": {
+        "brand": "Lenovo",
+        "ModelName": "Yoga 7i",
+        "ScreenSize": "16 Inches",
+        "HardDiskSize": "1024",
+        "CPUModel": "Core i5",
+        "RamMemoryInstalledSize": "8 GB",
+        "OperatingSystem": "Windows 11 H",
+        "SpecialFeature": "Backlit Kb,Fingerprint Reader,Pen",
+        "About": "[Feature]: Lenovo Yoga 7i 2-in-1 laptops | 16inch 2.5K multitouch touch screen | 360° flip-and-fold design | Fingerprint reader | Wifi 6 | Backlit keyboard | IR FHD webcam with TrueBlock Privacy Shutter | Dolby Atmos Speaker System\n[Processor]: Latest Intel Core i5-1240P Processor 1.7 GHz (12M Cache, up to 4.4 GHz, 4P+8E cores) and Intel Iris Xe graphics\n[Display]:16\" 2.5K (2560 x 1600) IPS Glossy Touchscreen (400 nits, 100% sRGB, TUV Low Blue Light, Dolby Vision) that gives you amazing experience.\n[Memory & Storage]:8GB LPDDR5 4800Mhz Memory | 1TB PCIE Solid State Drive (Boot SSD), Original Factory Box will be opened and resealed for Upgrade.\n[Other]: Weight Only 4.18 lbs | 0.76 Inch Thin | Cuertns Stylus Pen included | Windows 11 Home | WIFI | 802.11ax | Upto 15 Hours Battery Life | HDMI | Webcam | Bluetooth"
+      }
+    },
+    {
+      "id": 10,
+      "name ": "ASUS VivoBook Flip 14 Thin and Light 2-in-1 Laptop, 14” FHD Touch Display, AMD Ryzen 5 5500U, 8GB RAM, 512GB SSD, Stylus, Fingerprint Reader, Windows 11 Home, Bespoke Black, TM420UA-DS52T",
+      "image": [
+        "a973560232daf172ba99c4b8d0e8ca9f",
+        "d474bb9887e9627fcf1e179ca8f479c6",
+        "cf3b3be64969a2b7ab0fd61cfc6f7e97",
+        "203c24630292b8f7e290c6073bb54199",
+        "17aebcdf8b90084b1d497aef834dd0a5",
+        "74e73f8e47f73fc1be09dcc922c46b75"
+      ],
+      "categories": 1,
+      "subCategories": 1,
+      "quantity": 13,
+      "price": 565.5,
+      "colors": ["Black"],
+      "details": {
+        "brand": "ASUS",
+        "ModelName": "TM420UA-DS52T",
+        "ScreenSize": "14",
+        "HardDiskSize": "512 GB",
+        "CPUModel": "Ryzen 5",
+        "RamMemoryInstalledSize": "8 GB",
+        "OperatingSystem": "Windows 11 Home",
+        "SpecialFeature": "Reader,Stylus",
+        "About": "Powerful & efficient AMD Ryzen 5 5500U Processor (8M Cache, up to 4.0GHz, 6 cores)\n512GB SSD and 8GB DDR4 RAM\n14” Full HD Wideview touch display (with glossy finish) with up to 178° viewing angle optimized for entertainment\n12.8” wide, 0.7” thin with a stunning 82% screen-to-body ratio; Brushed aluminum chassis and lightweight at 3.31 pounds\nStylus and holder included"
+      }
     },
     {
       "id": 1,
@@ -96,7 +270,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -107,7 +290,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -118,7 +310,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -129,7 +330,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -140,7 +350,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -151,7 +370,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -162,7 +390,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -173,7 +410,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -184,7 +430,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -195,7 +450,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -206,7 +470,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -217,7 +490,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -228,7 +510,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -239,7 +530,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -250,7 +550,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -261,7 +570,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -272,7 +590,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -283,7 +610,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -294,7 +630,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -305,7 +650,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -316,7 +670,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -327,7 +690,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -338,7 +710,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -349,7 +730,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -360,7 +750,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -371,7 +770,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -382,7 +790,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -393,7 +810,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -404,7 +830,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -415,7 +850,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -426,7 +870,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -437,7 +890,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -448,7 +910,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -459,7 +930,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -470,7 +950,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -481,7 +970,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     },
     {
       "id": 1,
@@ -492,73 +990,16 @@
       "quantity": 1,
       "price": 1,
       "colors": [],
-      "details": {}
-    },
-    {
-      "id": 1,
-      "name ": "",
-      "image": [],
-      "categories": 1,
-      "subCategories": 1,
-      "quantity": 1,
-      "price": 1,
-      "colors": [],
-      "details": {}
-    },
-    {
-      "id": 1,
-      "name ": "",
-      "image": [],
-      "categories": 1,
-      "subCategories": 1,
-      "quantity": 1,
-      "price": 1,
-      "colors": [],
-      "details": {}
-    },
-    {
-      "id": 1,
-      "name ": "",
-      "image": [],
-      "categories": 1,
-      "subCategories": 1,
-      "quantity": 1,
-      "price": 1,
-      "colors": [],
-      "details": {}
-    },
-    {
-      "id": 1,
-      "name ": "",
-      "image": [],
-      "categories": 1,
-      "subCategories": 1,
-      "quantity": 1,
-      "price": 1,
-      "colors": [],
-      "details": {}
-    },
-    {
-      "id": 1,
-      "name ": "",
-      "image": [],
-      "categories": 1,
-      "subCategories": 1,
-      "quantity": 1,
-      "price": 1,
-      "colors": [],
-      "details": {}
-    },
-    {
-      "id": 1,
-      "name ": "",
-      "image": [],
-      "categories": 1,
-      "subCategories": 1,
-      "quantity": 1,
-      "price": 1,
-      "colors": [],
-      "details": {}
+      "details": {
+        "brand": "",
+        "ModelName": "",
+        "ScreenSize": "",
+        "HardDiskSize": "",
+        "CPUModel": "",
+        "RamMemoryInstalledSize": "",
+        "OperatingSystem": "",
+        "SpecialFeature": ""
+      }
     }
   ],
   "categories": [
