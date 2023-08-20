@@ -93,7 +93,7 @@ const imageFieldUploadMiddleware = upload.single("image");
 server.use((req, res, next) => {
   if (
     (req.method === "POST" || req.method === "PATCH") &&
-    req.headers["content-type"] != "application/json"
+    req.headers["content-type"] !== "application/json"
   ) {
     imageFieldUploadMiddleware(req, res, next);
   } else {
@@ -112,7 +112,7 @@ server.use((req, res, next) => {
     const { mimetype, size, filename } = req.file;
 
     // validate uploaded image
-    if (mimetype != "image/jpeg")
+    if (mimetype !== "image/jpeg")
       throw new Error("image should be in image/jpeg type");
     if (size > 2 * 1024 * 1024)
       throw new Error("image size should be less than 2MB");
@@ -138,7 +138,7 @@ let refreshTokens = [];
 server.post("/auth/login", async function (req, res, next) {
   const { username, password } = req.body;
   req.user = (DB.users || {}).find(
-    (u) => u.username == username && u.password == password
+    (u) => u.username === username && u.password === password
   );
   if (!req.user) return res.status(401).send("No user with those credentials!");
   const { username: dbUsername, role, name } = req.user;
