@@ -16,8 +16,7 @@ export const login = createAsyncThunk("users/login" , (user) => {
         .then((response) => {
             localStorage.setItem(ACCESS_TOKEN , response.accessToken);
             localStorage.setItem(REFRESH_TOKEN , response.refreshToken);
-            //TODO : change string true to boolean true
-            localStorage.setItem(IS_LOGGED_IN , 'true');
+            localStorage.setItem(IS_LOGGED_IN , JSON.stringify(true));
             return response;
         })
         .catch((error) => {
