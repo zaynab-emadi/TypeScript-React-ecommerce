@@ -1,5 +1,6 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
-import {IS_LOGGED_IN} from "../../Config/Constant";
+import {ACCESS_TOKEN, IS_LOGGED_IN, REFRESH_TOKEN} from "../../Config/Constant";
+import {loginRequest, refreshTokenRequest} from "../../Api/users";
 
 interface initialStateTypes {
     isLoggedIn : string | boolean | null,
@@ -10,16 +11,37 @@ const initialState : initialStateTypes = {
     error : ""
 
 };
-//TODO : creat login request then edit creatAsyncThunk of login
 export const login = createAsyncThunk("users/login" , (user) => {
-
+    return loginRequest(user)
+        .then((response) => {
+            localStorage.setItem(ACCESS_TOKEN , response.accessToken);
+            localStorage.setItem(REFRESH_TOKEN , response.refreshToken);
+            //TODO : change string true to boolean true
+            localStorage.setItem(IS_LOGGED_IN , 'true');
+            return response;
+        })
+        .catch((error) => {
+            return Promise.reject(error)
+        })
 });
 
-// TODO : creat refreshTokenRequest then edit creatAsyncThunk of refresh token
-export const refreshToken = createAsyncThunk("users/refreshToken" , (user) => {
-
+export const refreshToken = createAsyncThunk("users/refreshToken" , () => {
+    return refreshTokenRequest()
+        .then((response) => {
+            localStorage.setItem(ACCESS_TOKEN, response.accessToken);
+            return response
+        })
+        .catch((error) => {
+           return  Promise.reject(error)
+        })
 });
 
 //TODO : creat userSlice
 
-// export const userSlice  = createSlice()
+// export  const userSlice = createSlice({
+//     name : "users" ,
+//     initialState ,
+//     extraReducers : (builder) => {
+//
+//     }
+// })
