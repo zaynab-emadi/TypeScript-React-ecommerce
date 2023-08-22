@@ -1,6 +1,7 @@
 import {configureStore} from "@reduxjs/toolkit";
 
 export const store = configureStore({
+    //TODO : add slices
     reducer : {
 
     }
