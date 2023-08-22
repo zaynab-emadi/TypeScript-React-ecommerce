@@ -1,11 +1,11 @@
 import axios from "./axios";
 import {LOGIN_URL, REFRESH_TOKEN_URL} from "../Config/api";
 
-interface userType {
-
-}
+// interface userType {
+//
+// }
 //TODO : edit type of user
-export const loginRequest = async (user : userType) => {
+export const loginRequest = async (user : any) => {
     try {
         const response = await axios.post(LOGIN_URL , user)
         return response.data;
