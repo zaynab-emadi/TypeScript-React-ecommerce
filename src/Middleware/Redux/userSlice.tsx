@@ -4,7 +4,7 @@ import {loginRequest, refreshTokenRequest} from "../../Api/users";
 
 interface initialStateTypes {
     isLoggedIn : string | boolean | null,
-    error : string
+    error ?: any
 }
 const initialState : initialStateTypes = {
     isLoggedIn : localStorage.getItem(IS_LOGGED_IN) ? localStorage.getItem(IS_LOGGED_IN) : false,
@@ -37,10 +37,32 @@ export const refreshToken = createAsyncThunk("users/refreshToken" , () => {
 
 //TODO : creat userSlice
 
-// export  const userSlice = createSlice({
-//     name : "users" ,
-//     initialState ,
-//     extraReducers : (builder) => {
-//
-//     }
-// })
+export  const userSlice = createSlice({
+    name: 'users',
+    initialState ,
+    reducers: {},
+    // TODO : remove console logs
+    extraReducers : (builder) => {
+        //login
+        builder.addCase(login.fulfilled , (state , action) => {
+            console.log("fulfilled" , action)
+            return { isLoggedIn: true };
+        });
+        builder.addCase(login.rejected , (state , action) => {
+            console.log("rejected" , action)
+            return {isLoggedIn : false , error : action.error.message }
+        });
+
+        //refresh token
+        builder.addCase(refreshToken.fulfilled ,(state ,action ) => {
+            console.log("fulfilled", action);
+            return {isLoggedIn : true};
+        });
+        builder.addCase(refreshToken.rejected , (state , action) => {
+            return {isLoggedIn : false , error: action.error.message}
+        })
+    },
+    }
+);
+
+export default userSlice.reducer;
