@@ -6,12 +6,16 @@ interface initialStateTypes {
     isLoggedIn : string | boolean | null,
     error ?: any
 }
+interface userType {
+    userName : string,
+    password : string,
+}
 const initialState : initialStateTypes = {
     isLoggedIn : localStorage.getItem(IS_LOGGED_IN) ? localStorage.getItem(IS_LOGGED_IN) : false,
     error : ""
 
 };
-export const login = createAsyncThunk("users/login" , (user) => {
+export const login = createAsyncThunk("users/login" , (user : userType) => {
     return loginRequest(user)
         .then((response) => {
             localStorage.setItem(ACCESS_TOKEN , response.accessToken);
