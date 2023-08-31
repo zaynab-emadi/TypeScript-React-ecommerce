@@ -102,7 +102,7 @@ export default function AdminPanelSideBar(props: Props) {
             Admin Dashboard
           </Typography>
             <Box sx={{  mr: 1 , position : 'fixed' , right : 0 }}>
-                <Tooltip title={"Return"} arrow>
+                <Tooltip title={"Log out"} arrow>
                     <IconButton
                         size="large"
                         edge="end"
