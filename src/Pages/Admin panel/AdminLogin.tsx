@@ -24,6 +24,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../../Middleware/Redux/userSlice";
 import { AppDispatch, RootState } from "../../Middleware/Redux/store";
+import {stringify} from "querystring";
 
 //type declaring
 interface FormDataType {
@@ -47,7 +48,7 @@ function AdminLogin() {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
       ...formData,
-      [e.currentTarget.id]: e.currentTarget.value,
+      [e.currentTarget.id]: (e.currentTarget.value) ,
     });
   };
   const handleMouseDownPassword = (

@@ -9,6 +9,7 @@ interface initialStateTypes {
 interface userType {
     userName : string,
     password : string,
+    role ? : any
 }
 const initialState : initialStateTypes = {
     isLoggedIn : localStorage.getItem(IS_LOGGED_IN) ? localStorage.getItem(IS_LOGGED_IN) : false,
